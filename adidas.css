@@ -1,0 +1,124 @@
+*, *::before,*::after{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.content{
+    position: absolute;
+    top: 16px;
+    width: 100%;
+}
+.content nav a img{
+    position: absolute;
+    left: 4.9%;
+    width: 90px;
+}
+.content nav ul{
+    position: relative;
+    top: 16px;
+    left: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 10px;
+}
+.content nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.content nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.content .search{
+    position: absolute;
+    right: 4.9%;
+    top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .search input{
+    border: 2px solid #c4580a;
+    padding: 10px;
+    border-radius: 38px;
+    background-color: transparent;
+    width: 250px;
+    outline: none;
+    cursor: pointer;
+}
+.content .search span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4580a;
+    padding: 10px;
+    width: 28px;
+    height: 28px;
+    margin-left: 2.3%;
+    color: black;
+    border-radius: 50%;
+}
+.content .search:hover{
+    cursor: default;
+}
+.page{
+    position: relative;
+    top: 30%;
+    left: 8%;
+}
+.text{
+    width: 50%;
+}
+.text h2{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.text p{
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.text button{
+    background-image: linear-gradient(to right, #441c06, #d86908);
+    padding: 30px;
+    margin-top: 10px;
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+.text button:hover{
+    background-image: none;
+    color: black;
+}
+.image{
+    position: absolute;
+    top: -80%;
+    left: 45%;
+    z-index: 5;
+}
+.page .circle .circle1{
+    position: absolute;
+    top: -30%;
+    right: 17%;
+    background-image: linear-gradient(#441c06, #d86908);
+    width: 450px;
+    height: 450px;
+    border-radius: 27% 73% 42% 58% / 29% 35% 65% 71% ;
+    z-index: 0;
+}
